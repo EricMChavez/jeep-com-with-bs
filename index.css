@@ -1,6 +1,10 @@
 body {
 	font-family: 'Roboto', sans-serif;
 }
+a {
+	text-decoration: none;
+	color: white;
+}
 sub {
 	position: relative;
 	top: 3px;
@@ -8,11 +12,9 @@ sub {
 }
 .navbar {
 	background-color: black;
-	justify-content: flex-end;
 }
 #logo {
-	width: 18%;
-	margin-right: auto;
+	width: 8%;
 }
 .nav-item {
 	text-decoration: none;
@@ -20,9 +22,7 @@ sub {
 	font-size: 12px;
 	font-weight: 600;
 }
-.nav-link {
-	padding: 5px 10px;
-}
+
 .chevron::after {
 	font-family: 'Font Awesome 5 Free';
 	content: ' \f078';
@@ -116,13 +116,13 @@ sub {
 	font-size: 14px;
 	font-weight: 700;
 	border-radius: 2px;
+	color: black;
 }
-.btn::after {
+.btn-warning::after {
 	font-family: 'Font Awesome 5 Free';
 	content: ' \f054';
 	margin: 0 0 0 8px;
 	font-size: 12px;
-	color: #black;
 	font-weight: 700;
 }
 h3 {
@@ -140,4 +140,26 @@ h2 {
 }
 .fz-14 {
 	font-size: 14px;
+}
+.dark-grey {
+	background-color: #212121;
+	color: #bfbfbf;
+}
+.fz-12 {
+	font-size: 12px;
+}
+.footer,
+.card-header,
+.collapse,
+.collapsing,
+.collapsed,
+.show,
+.btn-link {
+	background-color: black;
+	text-decoration: none;
+	color: white;
+}
+.text-w {
+	color: white;
+	text-decoration: none;
 }
