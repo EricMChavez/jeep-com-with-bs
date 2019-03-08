@@ -11,13 +11,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
 <body>
-    <div class="navbar"></div>
+    <nav class="navbar navbar-expand-lg p-0 d-flex justify-content-end justify-content-lg-start">
+        <div id="logo" class="d-inline-flex mr-auto align-items-center"><img class="w-100 p-3" src="logo.png" ></div>
+        <a href="#" class="py-sm-3"><div class="m-2 p-1 chevron">VEHICLES</div></a>
+        <a href="#" class="py-sm-3 d-none d-sm-block d-lg-none"><div class="m-2 p-1 chevron">SHOPPING TOOLS</div></a>
+        <a href="#" class="py-sm-3 d-none d-sm-block d-lg-none"><div class="m-2 p-1 chevron">CAPABILITY</div></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="menu fz-12 p-1 navbar-toggler-icon">MENU</div>
+        </button>
+        <div class="collapse navbar-collapse align-items-center" id="navbarNav">
+            <a href="#" class="py-3"><div class="d-sm-none d-lg-block m-2 p-1 chevron">SHOPPING TOOLS</div></a>
+            <a href="#" class="py-3"><div class="d-sm-none d-lg-block m-2 p-1 chevron">CAPABILITY</div></a>
+            <a href="#" class="py-3"><div class="m-2 p-1">JEEP<sub>®</sub> LIFE</div></a>
+            <a href="#" class="py-3"><div class="m-2 p-1 chevron">OWNERS</div></a>
+            <a href="#" class="py-3"><div class="m-2 p-1 external">MERCHANDISE</div></a>
+        </div>
+        <div class="d-none d-xl-flex my-1 ml-auto">
+            <div class="border-left align-items-center m-4">|</div>
+            <a href="#" class="d-inline-flex align-items-center globe"><div class="mr-4 fz-12 font-weight-normal">Español</div></a>
+            <a href="#" class="d-inline-flex align-items-center marker"><div class="mr-4">FIND A<br>DEALER</div></a>
+            <a href="#" class="d-inline-flex align-items-center wrench"><div class="mr-4">BUILD & <br>PRICE</div></a>
+        </div>
+    </nav>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
             <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -29,16 +48,6 @@
                 <img src="carousel_2_mobile.jpg" class="d-block w-100 d-sm-none">
                 <img src="carousel_2_portrait.jpg" class="w-100 d-none d-sm-block d-lg-none">
                 <img src="carousel_2.jpg" class="w-100 d-none d-lg-block">
-            </div>
-            <div class="carousel-item">
-                <img src="carousel_3_mobile.jpg" class="d-block w-100 d-sm-none">
-                <img src="carousel_3_portrait.jpg" class="w-100 d-none d-sm-block d-lg-none">
-                <img src="carousel_3.jpg" class="w-100 d-none d-lg-block">
-            </div>
-            <div class="carousel-item">
-                <img src="carousel_4_mobile.jpg" class="d-block w-100 d-sm-none">
-                <img src="carousel_4_portrait.jpg" class="w-100 d-none d-sm-block d-lg-none">
-                <img src="carousel_4.jpg" class="w-100 d-none d-lg-block">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -171,19 +180,19 @@
         </div>
     </div>
     <div class="dark-grey">
-        <div class="container-fluid p-4">
+        <div class="container-fluid py-4 px-5">
             <div class="row">
-                <div class="container-fluid col-12 col-lg-9">
-                    <div class="row my-2 fz-14">
-                        <div class="col-6 col-sm-4 col-lg-2 my-2"><img src="automobility.png"></div>
-                        <div class="col-6 col-sm-4 col-lg-2 my-2"><i class="fas fa-globe-americas mr-2"></i> Find Your Country</div>
-                        <div class="col-6 col-sm-4 col-lg-2 my-2">Contact Us</div>
-                        <div class="col-6 col-sm-4 col-lg-2 my-2">Site Map</div>
-                        <div class="col-6 col-sm-4 col-lg-2 my-2">Careers</div>
-                        <div class="col-6 col-sm-4 col-lg-2 my-2">Español</div>
+                <div class="container-fluid m px-5 col-12 col-lg-8">
+                    <div class="row my-2 fz-14 align-items-center">
+                        <div class="col-6 col-sm-4 col-lg-auto m-2"><img src="automobility.png"></div>
+                        <div class="col-6 col-sm-4 col-lg-auto m-2"><i class="fas fa-globe-americas mr-2"></i> Find Your Country</div>
+                        <div class="col-6 col-sm-4 col-lg-auto m-2">Contact Us</div>
+                        <div class="col-6 col-sm-4 col-lg-auto m-2">Site Map</div>
+                        <div class="col-6 col-sm-4 col-lg-auto m-2">Careers</div>
+                        <div class="col-6 col-sm-4 col-lg-auto m-2">Español</div>
                     </div>
                 </div>
-                <div class="container-fluid col-12 pl-0 col-lg-3">
+                <div class="container m-0 col-12 pl-0 col-lg-3">
                     <div class="input-group col-12 col-md-6 pl-0 col-lg-12 m-3">
                         <input type="text" class="form-control" aria-label="Recipient's username" aria-describedby="basic-addon2">
                         <div class="input-group-append">

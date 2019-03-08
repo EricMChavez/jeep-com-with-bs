@@ -4,6 +4,13 @@ body {
 a {
 	text-decoration: none;
 	color: white;
+	line-height: 1.2;
+}
+.navbar a:hover {
+	text-decoration: none;
+	color: #d8d8d8;
+	background-color: #3c3c3c;
+	transition: 300ms;
 }
 sub {
 	position: relative;
@@ -12,15 +19,34 @@ sub {
 }
 .navbar {
 	background-color: black;
+	height: 80px;
+	z-index: 1070;
+	font-size: 14px;
 }
 #logo {
-	width: 8%;
+	width: 8.33333%;
+}
+@media (max-width: 990px) {
+	#logo {
+		width: 120px;
+	}
+	.navbar {
+		font-size: 12px;
+	}
+}
+@media (max-width: 576px) {
+	#logo {
+		height: 45px;
+		width: 100px;
+	}
+	.navbar {
+		height: 45px;
+	}
 }
 .nav-item {
 	text-decoration: none;
 	color: white;
 	font-size: 12px;
-	font-weight: 600;
 }
 
 .chevron::after {
@@ -30,9 +56,47 @@ sub {
 	color: white;
 	font-size: 12px;
 	margin-left: 8px;
+	position: relative;
+	top: -1;
+}
+.external::after {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f35d';
+	font-weight: 700;
+	color: white;
+	font-size: 10px;
+	margin-left: 8px;
+	position: relative;
+	top: -2;
+}
+.globe::before {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f27a';
+	font-weight: 700;
+	color: #bfbfbf;
+	font-size: 12px;
+	margin: 9px;
+}
+.marker::before {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f3c5';
+	font-weight: 700;
+	color: #bfbfbf;
+	font-size: 14px;
+	margin: 9px;
+}
+.wrench::before {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f0ad';
+	font-weight: 700;
+	color: #bfbfbf;
+	font-size: 14px;
+	margin: 9px;
 }
 .menu {
 	font-weight: 500;
+	color: white;
+	width: auto;
 }
 .menu::after {
 	font-family: 'Font Awesome 5 Free';
@@ -162,4 +226,7 @@ h2 {
 .text-w {
 	color: white;
 	text-decoration: none;
+}
+i {
+	color: white;
 }
