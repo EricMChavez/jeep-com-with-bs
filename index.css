@@ -6,6 +6,10 @@ a {
 	color: white;
 	line-height: 1.2;
 }
+a:enabled {
+	color: white;
+	text-decoration: none;
+}
 .navbar a:hover {
 	text-decoration: none;
 	color: #d8d8d8;
@@ -48,7 +52,9 @@ sub {
 	color: white;
 	font-size: 12px;
 }
-
+.blackbg {
+	background-color: black;
+}
 .chevron::after {
 	font-family: 'Font Awesome 5 Free';
 	content: ' \f078';
@@ -58,6 +64,16 @@ sub {
 	margin-left: 8px;
 	position: relative;
 	top: -1;
+}
+.chevron-l::after {
+	font-family: 'Font Awesome 5 Free';
+	content: ' \f078';
+	font-weight: 700;
+	color: white;
+	font-size: 12px;
+	margin-left: 8px;
+	position: absolute;
+	right: 5;
 }
 .external::after {
 	font-family: 'Font Awesome 5 Free';
@@ -119,14 +135,17 @@ sub {
 	font-family: proxima-nova, sans-serif;
 	font-size: 16px;
 	font-weight: 700;
+	border: none;
 }
 .card-body {
 	padding: 0;
+	border: none;
 }
 .card-text {
 	margin: 0;
 	font-size: 14px;
 	font-weight: 700;
+	border: none;
 }
 .text-muted {
 	font-size: 9px;
@@ -227,6 +246,9 @@ h2 {
 	color: white;
 	text-decoration: none;
 }
-i {
+p {
+	color: #bfbfbf;
+}
+p:hover {
 	color: white;
 }
