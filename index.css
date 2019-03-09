@@ -1,5 +1,6 @@
 body {
 	font-family: 'Roboto', sans-serif;
+	background-color: #212121;
 }
 a {
 	text-decoration: none;
@@ -125,7 +126,6 @@ sub {
 	font-size: 18px;
 	font-weight: 700;
 	text-align: center;
-	margin: 40px 0 0;
 }
 .card {
 	text-align: center;
@@ -231,6 +231,9 @@ h2 {
 .fz-12 {
 	font-size: 12px;
 }
+.fz-10 {
+	font-size: 10px;
+}
 .footer,
 .card-header,
 .collapse,
@@ -251,4 +254,15 @@ p {
 }
 p:hover {
 	color: white;
+}
+.fab {
+	font-size: 28px;
+}
+.container-fluid {
+	max-width: 1440px;
+}
+.titles {
+	max-width: 600px;
+}
+.tag {
 }
