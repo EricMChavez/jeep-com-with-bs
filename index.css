@@ -265,6 +265,8 @@ p:hover {
 	max-width: 600px;
 }
 .tag {
+	width: 55px;
+	height: 24;
 }
 .stuff {
 	max-width: 700px;
