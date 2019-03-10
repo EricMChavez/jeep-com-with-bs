@@ -271,3 +271,30 @@ p:hover {
 .stuff {
 	max-width: 700px;
 }
+.slide1 {
+	background-color: rgba(0, 0, 0, .5);
+	width: 50%;
+	height: 45%;
+	position: absolute;
+	top: 5%;
+	left: 25%;
+	line-height: 1;
+}
+.slide2 {
+	width: 50%;
+	position: absolute;
+	left: 5%;
+}
+.ft-pn {
+	font-family: proxima-nova, sans-serif;
+}
+.fz-25 {
+	font-size: 25px;
+}
+.lh-15 {
+	line-height: 1.5;
+}
+.carousel-control-prev,
+.carousel-control-next {
+	width: 5%;
+}
