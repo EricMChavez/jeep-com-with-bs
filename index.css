@@ -274,7 +274,7 @@ p:hover {
 .slide1 {
 	background-color: rgba(0, 0, 0, .5);
 	width: 50%;
-	height: 45%;
+	height: 320px;
 	position: absolute;
 	top: 5%;
 	left: 25%;
